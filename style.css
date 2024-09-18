@@ -1,0 +1,103 @@
+/* Geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+width: 5rem;
+margin-top: -80px;
+
+}
+    
+
+h1 {
+    text-align: center;
+    color: #004b13; /* Amarelo Oi */
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+h2{
+    color: #fff;
+    font-size: 23px;
+}
+
+/* Container centralizado */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre as caixas */
+    max-width: 1000px;
+    flex-wrap: wrap; /* Permite que os itens fiquem lado a lado, mas quebrem linha se necessário */
+}
+
+/* Estilo das instâncias */
+li {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-top: 4rem;
+    width: 35rem;
+    flex: 1;
+    max-width: 300px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+.verde {
+    background-color: #00a651; /* Verde da Oi */
+}
+
+.preto {
+    background-color: #333;
+}
+
+.paragrafo-2 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Links */
+a {
+    
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    font-weight: bold;
+    background-color:  #005014;;
+}
